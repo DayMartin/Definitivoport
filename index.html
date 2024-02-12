@@ -101,7 +101,7 @@
                         <img src="/assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
                         <img src="/assets/img/shape-circle.svg" alt="" class="home__shape-circle">
 
-                        <a href="/assets/img/DinahDevFullStack.pdf" download>Download do meu currículo </a>
+                        <a href="/assets/img/DinahBackend.pdf" download>Download do meu currículo </a>
                     </div>
                     <ul class="home__social">
                         <li>
@@ -125,7 +125,7 @@
                             BIOGRAFIA
                         </h3>
                         <p class="home__info-description">
-                            ||  Atualmente, estou focada em desenvolvimento FullStack, mas estou expandindo meu conhecimento na área de inteligência artificial, análise de dados e computação quântica. ||
+                            ||  Atualmente, estou focada em desenvolvimento Backend, mas estou expandindo meu conhecimento na área de inteligência artificial, análise de dados e computação quântica. ||
                         </p>
                     </div>
 
@@ -146,7 +146,6 @@
                         </h3>
                         <p class="home__info-description">
                             Back-end <br>
-                            Front-end <br>
                             DevOps <br>
                             Cloud <br>
                         </p>
@@ -203,13 +202,6 @@
                     <div class="skills__info">
                         <div class="skills__data">
                             <div class="skills__blob">
-                                <img src="/assets/img/html-1.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">HTML</h3>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
                                 <img src="/assets/img/python-5.svg" alt="skills image">
                             </div>
                             <h3 class="skills__name">Python</h3>
@@ -243,6 +235,13 @@
                             <h3 class="skills__name">Google</h3>
                         </div>
 
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="/assets/img/aws-2.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">AWS</h3>
+                        </div>
+
                     </div>
                 </div>
                     <!--==================== SKILLS 2 ====================-->
@@ -251,19 +250,19 @@
                             <i class="ri-pantone-line"></i> Desenvolvimento
                         </h3>
                         <div class="skills__info">
-                            <div class="skills__data">
-                                <div class="skills__blob">
-                                    <img src="/assets/img/aws-2.svg" alt="skills image">
-                                </div>
-                                <h3 class="skills__name">AWS</h3>
-                            </div>
-
                                 <div class="skills__data">
                                     <div class="skills__blob">
                                         <img src="/assets/img/jenkins.svg" alt="skills image">
                                     </div>
                                     <h3 class="skills__name">Jenkins</h3>
                                 </div>
+                                <div class="skills__data">
+                                    <div class="skills__blob">
+                                        <img src="/assets/img/sonarqube2.png" alt="skills image">
+                                    </div>
+                                    <h3 class="skills__name">SonarQube</h3>
+                                </div>
+    
                                     <div class="skills__data">
                                         <div class="skills__blob">
                                             <img src="/assets/img/kubernets.svg" alt="skills image">
@@ -326,10 +325,10 @@
                         <div class="qualification__info">
                             <div>
                                 <h3 class="qualification__name">
-                                    FullStack Developer
+                                    Back-end Developer
                                 </h3>
                                 <span class="qualification__country">Tizza Tecnologia</span>
-                                <span class="qualification__year">11 Meses</span>
+                                <span class="qualification__year">1 ano</span>
                             </div>
 
                             <div>
@@ -352,23 +351,6 @@
 
                 <div class="services__container container grid section__border">
                     <div class="services__card">
-                        <i class="ri-layout-4-line"></i>
-
-                        <h2 class="services__title">
-                            Front-end <br>
-                        </h2>
-
-                        <p class="services__description">
-                            Desenvolvimento Web  ||
-                            Html, Css e javascript ||
-                            React
-                            
-                        </p>
-
-                        <div class="services__border"></div>
-                    </div>
-
-                    <div class="services__card">
                         <i class="ri-code-line"></i>
 
                         <h2 class="services__title">
@@ -386,18 +368,33 @@
                     </div>
 
                     <div class="services__card">
+                        <i class="ri-layout-4-line"></i>
+
+                        <h2 class="services__title">
+                            Cloud <br>
+                        </h2>
+
+                        <p class="services__description">
+                            AWS  ||
+                            Google Cloud ||
+                            Azure
+                            
+                        </p>
+
+                        <div class="services__border"></div>
+                    </div>
+
+                    <div class="services__card">
                         <i class="ri-quill-pen-line"></i>
 
                         <h2 class="services__title">
-                            DevOps  <br>
+                            Automação  <br>
                         </h2>
 
                         <p class="services__description">
                              Docker || Kubernetes ||
                              GitHub  ||
-                             Jenkins ||
-                             AWS
-                           
+                             Jenkins || SonarQube                           
                         </p>
 
                         <div class="services__border"></div>
@@ -414,19 +411,7 @@
             <div class="container section__border">
                 <div class="projects__container swiper">
                     <div class="swiper-wrapper">
-                        <!--==================== PROJECTS 4 ====================-->
-                        <div class="projects__content swiper-slide">
-                            <img src="/assets/img/cloud/cloudcompu.png" alt="projects image" class="projects__img" style="width: 250px;"> 
 
-                            <div>
-                                <span class="projects__subtitle">Cloud</span>
-                                <h1 class="projects__title">Projetos Cloud</h1>
-
-                                <a href="/projetosCloud.html" class="projects__button">
-                                    Clique para ver mais<i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
                         <!--==================== PROJECTS 1 ====================-->
                         <div class="projects__content swiper-slide">
                             <img src="/assets/img/back/servi.png" alt="projects image" class="projects__img" style="width: 210px;">
@@ -440,9 +425,21 @@
                                 </a>
                             </div>
                         </div>
-
-                        <!--==================== PROJECTS  ====================-->
+                        <!--==================== PROJECTS 4 ====================-->
                         <div class="projects__content swiper-slide">
+                            <img src="/assets/img/cloud/cloudcompu.png" alt="projects image" class="projects__img" style="width: 250px;"> 
+
+                            <div>
+                                <span class="projects__subtitle">Cloud</span>
+                                <h1 class="projects__title">Projetos Cloud</h1>
+
+                                <a href="/projetosCloud.html" class="projects__button">
+                                    Clique para ver mais<i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="projects__content swiper-slide">
                             <img src="/assets/img/front/front.png" alt="projects image" class="projects__img" style="width: 240px;">
 
                             <div>
@@ -454,10 +451,10 @@
                                 </a>
                             </div>
                         </div>
-                       
+                        -->
 
                         <!--==================== PROJECTS  ====================-->
-                        <div class="projects__content swiper-slide">
+                        <!-- <div class="projects__content swiper-slide">
                             <img src="/assets/img/full/full2.png" alt="projects image" class="projects__img" style="width: 240px;">
 
                             <div>
@@ -468,10 +465,10 @@
                                     Clique para ver mais<i class="ri-arrow-right-line"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!--==================== PROJECTS  ====================-->
-                        <div class="projects__content swiper-slide">
+                        <!-- <div class="projects__content swiper-slide">
                             <img src="/assets/img/devOps/devop.png" alt="projects image" class="projects__img" style="width: 226px;">
 
                             <div>
@@ -482,9 +479,9 @@
                                     Clique para ver mais<i class="ri-arrow-right-line"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                                                 <!--==================== PROJECTS  ====================-->
-                        <div class="projects__content swiper-slide">
+                        <!-- <div class="projects__content swiper-slide">
                             <img src="/assets/img/Ia/ia.png" alt="projects image" class="projects__img" style="width: 226px;">
 
                             <div>
@@ -496,7 +493,7 @@
                                 </a>
                             </div>
                         </div>
-                                              
+                                               -->
 
 
                     </div>
@@ -697,7 +694,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <h1 class="footer__title">Dinah Martins</h1>
-            <p> Front-end Developer || Back-end Developer || </p>
+            <p> || Back-end Developer || </p>
 
             <ul class="footer__list">
                 <li>
@@ -730,7 +727,7 @@
             </ul>
 
             <span class="footer__copy">
-                &#169; 2023 Todos os direitos reservados
+                &#169; 2024 Todos os direitos reservados
             </span>
 
         </div>
